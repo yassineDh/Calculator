@@ -1,4 +1,27 @@
+*{
+    box-sizing: border-box;
+}
 #buttons{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 70px 70px 70px 70px;
+    grid-template-rows:70px 70px 70px 70px 70px;
+    grid-gap: 10px;
+    align-items: center;
+    justify-items: center;
+    margin: 10px auto;
+}
+
+.calculator{
+    display: flex;
+    width: 400px;
+    height: 500px;
+    flex-direction: column;
+    padding: 20px;
+    background-color: cornflowerblue;
+    margin: auto;
+}
+
+.calculator input {
+    height: 40px;
+    font-size: x-large;
 }
